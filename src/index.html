@@ -8,21 +8,58 @@
   <title>Dev-Uber</title>
 </head>
 <body>
-  <header class="bg-black p-4">
-    <div class="flex max-w-screen-lg justify-between items-center mx-auto">
-      <div class="flex gap-10">
-        <img src="assets/icon/logo.svg" alt="" class="h-5">
-        <nav class="hidden sm:flex gap-5">
-          <a class="text-white" href="#">Company</a>
-          <a class="text-white" href="#">Safety</a>
-          <a class="text-white" href="#">Help</a>
+  <header class="w-full h-14 bg-black px-4">
+    <div class="flex w-full max-w-screen-xl h-14 justify-between items-center mx-auto">
+
+      <div class="flex gap-7 items-center">
+
+        <img src="assets/svg/logo.svg" alt="" class="h-6">
+
+        <nav class="hidden sm:flex gap-1">
+          <a class="text-white font-medium hover:bg-gray-800 px-3 py-1 rounded-lg  duration-300" href="#">Company</a>
+          <a class="text-white font-medium hover:bg-gray-800 px-3 py-1 rounded-lg  duration-300" href="#">Safety</a>
+          <a class="text-white font-medium hover:bg-gray-800 px-3 py-1 rounded-lg  duration-300" href="#">Help</a>
         </nav>
+
       </div>
+
       <div class="flex items-center gap-3">
         <a class="text-white" href="#">Login</a>
-        <a class="bg-white rounded-full px-3 text-center" href="#">Sign Up</a>
+        <a class="bg-white rounded-full px-3 text-center" href="#">Sign up</a>
       </div>
+      
     </div>
   </header>
+  <main>
+    <section>
+
+      <div class="sm:max-w-sm">
+        <div class="flex bg-gray-100 px-2">
+          <button class="flex-1 flex gap-1 flex-col justify-center items-center px-2 py-5 border-gray-100 border-b-4 hover:bg-gray-200 text-sm duration-300 focus:border-black font-medium">
+            <img src="assets/svg/bar-chart.svg" alt="">
+            Faça viagens ou entregas
+          </button>
+  
+          <button class="flex-1 flex gap-1 flex-col justify-center items-center px-2 py-5 border-gray-100 border-b-4 hover:bg-gray-200 text-sm duration-300 focus:border-black font-medium">
+            <img src="assets/svg/car.svg" alt="">
+            Viajar
+          </button>
+  
+          <button class="flex-1 flex gap-1 flex-col justify-center items-center px-2 py-5 border-gray-100 border-b-4 hover:bg-gray-200 text-sm duration-300 focus:border-black font-medium">
+            <img src="assets/svg/key.svg" alt="">
+            Alugue seus carros
+          </button>
+        </div>
+  
+        <div class="p-4">
+          <h1 class="font-bold text-3xl mb-5">Assuma o comando e ganhe</h1>
+          <p class="mb-6">Dirija na plataforma com a maior rede de usuários ativos.</p>
+          <button class="bg-black rounded-lg text-white py-2 px-8 block mb-10">Cadastrar-se para dirigir</button>
+          <a class="border-b-2 pb-2 text-gray-500" href="#">Saibamais sobre como dirigir e fazer entregas</a>
+        </div>
+      </div>
+
+    </section>
+  </main>
 </body>
 </html>
